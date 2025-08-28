@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Abbott//Beyond MDI: Why CGM Belongs in Every Type 2 Diabetes Care Plan//EN
+BEGIN:VEVENT
+UID:event-cgm-20250919@mcrtech.com
+DTSTAMP:20250827T060000Z
+DTSTART:20250919T090000Z
+DTEND:20250919T093000Z
+SUMMARY:Beyond MDI: Why CGM Belongs in Every Type 2 Diabetes Care Plan
+DESCRIPTION:Join us for a session on why Continuous Glucose Monitoring (CGM) belongs in every Type 2 diabetes care plan.
+LOCATION:Virtual
+END:VEVENT
+END:VCALENDAR
