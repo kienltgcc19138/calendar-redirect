@@ -1,15 +1,24 @@
 {
+  "version": 2,
+  "public": true,
   "headers": [
     {
-      "source": "/(.*).ics",
+      "source": "/event-cgm.ics",
       "headers": [
-        {
-          "key": "Content-Type",
-          "value": "text/calendar"
-        },
+        { "key": "Content-Type", "value": "text/calendar" },
         {
           "key": "Content-Disposition",
-          "value": "attachment; filename=\"$1.ics\""
+          "value": "attachment; filename=event-cgm.ics"
+        }
+      ]
+    },
+    {
+      "source": "/event-dka.ics",
+      "headers": [
+        { "key": "Content-Type", "value": "text/calendar" },
+        {
+          "key": "Content-Disposition",
+          "value": "attachment; filename=event-dka.ics"
         }
       ]
     }
