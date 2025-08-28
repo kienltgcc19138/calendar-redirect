@@ -3,15 +3,13 @@
     {
       "source": "/(.*).ics",
       "headers": [
-        {
-          "key": "Content-Type",
-          "value": "text/calendar"
-        },
+        { "key": "Content-Type", "value": "text/calendar" },
         {
           "key": "Content-Disposition",
           "value": "attachment; filename=\"$1.ics\""
         }
       ]
     }
-  ]
+  ],
+  "rewrites": [{ "source": "/", "destination": "/index.html" }]
 }
